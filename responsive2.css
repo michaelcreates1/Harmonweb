@@ -1,0 +1,117 @@
+@media(max-width: 800px){
+    .row{
+        flex-direction: column;
+    }
+
+    .text-col h2{
+        font-size: 30px;
+        margin-top: 5%;
+    }
+
+    .first-banner{
+        height: 100vh;
+    }
+
+    nav{
+        padding: 5% 4%;
+    }
+
+    .header img{
+        width: 120px;
+        height: 20px;
+    }
+
+    .text-col{
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-col p{
+        font-size: 15px;
+        margin-top: 5%;
+    }
+
+    .text-col h3{
+        font-size: 13px;
+    }
+
+    .nav-links{
+        position: fixed;
+        background: #3e01f5;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: center;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links ul li a{
+        color: #fff;
+    }
+
+    nav .fa{
+        display: block;
+        color: #000;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .btn1{
+        display: none;
+    }
+
+    .row-col{
+        flex-direction: column;
+    }
+
+    .img-col img{
+        margin-top: 10%;
+    }
+    
+    .about{
+        min-height: 80vh;
+        text-align: center;
+    }
+
+    .why-us{
+        margin-top: 10%;
+    }
+
+    .why-us{
+        height: 90vh;
+        text-align: center;
+    }
+
+    .info{
+        margin-top: 5%;
+    }
+
+    .faq-text{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .growth{
+        text-align: center;
+    }
+
+    .growth h2{
+        margin-top: 5%;
+    }
+
+    .btn3{
+        margin-top: 10%;
+    }
+
+    .faq{
+        height: 50vh;
+    }
+}
